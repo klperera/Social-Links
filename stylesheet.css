@@ -25,7 +25,7 @@ body{
 
 .container{
     background-color: var(--CONTAINER-BGCOLOR) ;
-    width: 60%;
+    width: 65%;
     height: auto;
     border-radius: 25px;
     box-shadow: 0 0 10px 15px hsl(0, 0%, 10%);
@@ -42,7 +42,7 @@ body{
 }
 .container h2{
     font-size: 1rem;
-    margin: 2% auto;
+    margin: 5% auto;
     color: hsl(75, 94%, 57%);
 }
 .container p{
@@ -50,15 +50,15 @@ body{
     margin: 5% auto;
     font-size: 1rem;
 }
-.container .links p {
+.container .links a {
+    display: block;
     width: 80%;
     background-color: hsl(0, 0%, 20%);
     border-radius: 25px;
     padding: 5% 0;
-}
-.container .links a {
     color: #fff;
     text-decoration: none;
+    margin: 5% auto;
 }
 .container .links p:hover {
     background-color: hsl(75, 94%, 57%);
@@ -70,4 +70,8 @@ body{
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media only screen (min-height: ) {
+    
 }
