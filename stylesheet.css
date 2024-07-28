@@ -14,7 +14,8 @@
 
 html{
     scroll-behavior: smooth;
-   /*  scrollbar-width: none; */
+    scrollbar-width: none;
+    font-size: 62.5%;
 }
 body{
     background-color: var(--BGCOLOR);
@@ -24,21 +25,20 @@ body{
 
 .container{
     background-color: var(--CONTAINER-BGCOLOR) ;
-    width: 25%;
-    height: 60%;
+    width: 60%;
+    height: auto;
     border-radius: 25px;
     box-shadow: 0 0 10px 15px hsl(0, 0%, 10%);
-    margin: 5% auto;
+    margin: 35% auto;
     text-align: center;
 }
 .container img{
     width: 35%;
     border-radius: 50%;
-    /* box-shadow: 0 0 10px 5px; */
     margin: 10% auto ;
 }
 .container h1{
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 .container h2{
     font-size: 1rem;
@@ -65,7 +65,7 @@ body{
     color: var(--CONTAINER-BGCOLOR);
 }
 .attribution { 
-    font-size: 11px; 
+    font-size: 1.1rem; 
     text-align: center;
 }
 .attribution a { 
